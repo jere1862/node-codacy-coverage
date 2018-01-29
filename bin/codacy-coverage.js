@@ -35,7 +35,7 @@
         debug: program.debug
     });
 
-    loggerImpl.info(util.format('Started with: token [%j], accountToken [$j], username [$j], projectName [$j] commitId [%j], language [%j], endpoint [%j], format [%j], path prefix [%j], verbose [%j], debug [%j]',
+    loggerImpl.info(util.format('Started with: token [%j], accountToken [%j], username [%j], projectName [%j], commitId [%j], language [%j], endpoint [%j], format [%j], path prefix [%j], verbose [%j], debug [%j]',
         program.token, program.accountToken, program.username, program.projectName, program.commit, program.language, program.endpoint, program.format, program.prefix, program.verbose, program.debug));
 
     process.stdin.on('end', function () {
